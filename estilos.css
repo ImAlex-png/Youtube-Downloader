@@ -1,0 +1,90 @@
+:root {
+  --fondo-claro-rojo: #8b4646;
+  --card-bg: #ffffff;
+  --accent: #d72626;
+  --accent-contrast: #fff;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  display: grid;
+  place-items: center;
+  background: var(--fondo-claro-rojo);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  width: min(420px, 92%);
+  background: var(--card-bg);
+  padding: 28px;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 14px 0;
+  font-size: 1.25rem;
+  color: #222;
+}
+
+p.sub {
+  margin: 0 0 20px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+input[type='text'] {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+input[type='text']:focus {
+  box-shadow: 0 0 0 4px rgba(215, 38, 38, 0.08);
+  border-color: var(--accent);
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 0;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+@media (max-width: 420px) {
+  .card {
+    padding: 18px;
+  }
+  h1 {
+    font-size: 1.1rem;
+  }
+}
