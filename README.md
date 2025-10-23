@@ -3,6 +3,8 @@
 
 Downloader casero de videos de YouTube.
 
+🚧 NO ESTA TERMINADO, SOLO ESTAN LOS ARCHIVOS POR SEPARADO 🚧
+
 
 
 ## ¿Como funciona?
