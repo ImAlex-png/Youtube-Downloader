@@ -10,13 +10,8 @@ Downloader casero de videos de YouTube.
 ## ¿Como funciona?
 
 El proyecto se centra en un programa casero para descargar cualquier video de Youtube directamente a la carpeta donde tengas el proyecto.
-
-El proyecto aun esta en 'obras', aunque el archivo de Python ya descarga por CMD cualquier video de YouTube.
-
-Solo me queda 'enlazar' el archivo de Python con el TypeScript para que se ejecute directamente cuando se pulse el boton.
-
-Para ello voy a tener que utilizar un server debido a que Python no se ejecuta en navegadores, y esa es la parte que aun no se como hacerlo
-
+La idea es que mediante una pagina de HTML puedas pegar el link de cualquier video de YouTube que quieras descargar en la maxima calidad,
+y en cuestion de segundos lo puedas tener en tu dispositivo a golpe de click.
 
 ## 🛠 Skills
 -Javascript 
