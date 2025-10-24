@@ -1,4 +1,5 @@
 
+
 # YouTube Downloader
 
 Downloader casero de videos de YouTube.
@@ -21,6 +22,16 @@ y en cuestion de segundos lo puedas tener en tu dispositivo a golpe de click.
 -CSS
 
 -Python
+
+
+## Deployment
+
+Para que funcione el archivo, necesitamos tener instalado Python y necesitamos instala Pytubefix con el siguiente comando:
+
+```bash
+  python -m pip install pytubefix
+
+```
 
 
 ## Correrlo localmente
