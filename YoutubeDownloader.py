@@ -8,5 +8,5 @@ yt = YouTube(link)
 
 yt.streams.get_highest_resolution().download()
 
-print("El video se descargo correctamente :3")
+print("El video se descargo correctamente en la misma carpeta que el archivo Python")
  # Aqui esta el archivo Python para descargar videos y funcionapy
