@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Youtube Downloader</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <main class="card" role="main">
+    <h1>Youtube Downloader</h1>
+
+    <p class="sub">Introduce el enlace del video de Youtube.</p>
+
+    <!-- Formulario normal (POST) -->
+    <form method="POST">
+      <input type="text" name="url" placeholder="Pega aquí el enlace del video" required>
+      <button type="submit">Descargar</button>
+    </form>
+
+    <!-- Mensaje que muestra Flask tras la descarga -->
+    {% if mensaje %}
+      <p class="mensaje">{{ mensaje }}</p>
+    {% endif %}
+  </main>
+</body>
+
+</html>
