@@ -4,9 +4,6 @@
 
 Downloader casero de videos de YouTube.
 
-🚧 NO ESTA TERMINADO, SOLO ESTAN LOS ARCHIVOS POR SEPARADO 🚧
-
-
 
 ## ¿Como funciona?
 
@@ -23,6 +20,8 @@ y en cuestion de segundos lo puedas tener en tu dispositivo a golpe de click.
 
 -Python
 
+-Flask
+
 
 ## Deployment
 
@@ -31,15 +30,6 @@ Para instalar Python lo podemos instalar desde la pagina web oficial de Python
 ```bash
   https://www.python.org/downloads/
 ```
-
-Para que funcione el archivo, necesitamos tener instalado Python y necesitamos instala Pytubefix con el siguiente comando:
-
-```bash
-  python -m pip install pytubefix
-
-```
-
-## Correrlo localmente
 
 Clonar el proyecto
 
@@ -53,11 +43,29 @@ Ir al directorio del proyecto
   cd Youtube-Downloader
 ```
 
+Para que funcione el archivo, necesitamos tener instalado Python y necesitamos instala Pytubefix y Flask para correr un servidor en local. Se puede hacer con el siguiente comando:
+
+```bash
+  python -m pip install flask pytubefix
+
+```
+
+## Correrlo localmente
+
+
 Ejecutar el script de Python
 
 ```bash
-  Python YoutubeDownloader.py
+  Python app.py
 ```
+
+Una vez ejecutado el Servidor el local, hacemos *Control + Click Izquierdo* en la URL que nos proporcionan:
+
+```bash
+  Running on http://127.0.0.1:5000
+```
+
+Una vez clickemos en el enlace, ya podremos pegar la URL de nuestro video de YouTube que quieras descargar, y se descargara en la misma carpeta del proyecto en la carpeta de *Downloads*.
 
 
 ## Feedback
