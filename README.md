@@ -26,6 +26,12 @@ y en cuestion de segundos lo puedas tener en tu dispositivo a golpe de click.
 
 ## Deployment
 
+Para instalar Python lo podemos instalar desde la pagina web oficial de Python
+
+```bash
+  https://www.python.org/downloads/
+```
+
 Para que funcione el archivo, necesitamos tener instalado Python y necesitamos instala Pytubefix con el siguiente comando:
 
 ```bash
@@ -33,22 +39,25 @@ Para que funcione el archivo, necesitamos tener instalado Python y necesitamos i
 
 ```
 
-
 ## Correrlo localmente
 
-Clone the project
+Clonar el proyecto
 
 ```bash
   git clone https://github.com/ImAlex-png/Youtube-Downloader
 ```
 
-Go to the project directory
+Ir al directorio del proyecto
 
 ```bash
   cd Youtube-Downloader
 ```
 
-Aqui encontraras todos los archivos, tanto el HTML, como el CSS, el TypeScript y el Python
+Ejecutar el script de Python
+
+```bash
+  Python YoutubeDownloader.py
+```
 
 
 ## Feedback
