@@ -26,16 +26,17 @@ y en cuestion de segundos lo puedas tener en tu dispositivo a golpe de click.
 
 ## Deployment
 
+Para instalar Python lo podemos instalar desde la pagina web oficial de Python
+
+```bash
+  https://www.python.org/downloads/
+```
+
 Para que funcione el archivo, necesitamos tener instalado Python y necesitamos instala Pytubefix con el siguiente comando:
 
 ```bash
   python -m pip install pytubefix
 
-```
-Para instalar Python lo podemos instalar desde la pagina web oficial de Python
-
-```bash
-  https://www.python.org/downloads/
 ```
 
 ## Correrlo localmente
